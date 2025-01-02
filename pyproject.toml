@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "av-serial-parser"
+authors = [{name = "scbmark", email = "scbmark@gmail.com"},]
+license = {file = "LICENSE"}
+version = "1.0.0"
+description = "Add your description here"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.11"
+classifiers = ['Programming Language :: Python :: 3.7', 'Programming Language :: Python :: 3.8', 'Programming Language :: Python :: 3.9', 'Programming Language :: Python :: 3.10', 'Programming Language :: Python :: 3.11']
+dependencies = [
+    "setuptools>=75.6.0",
+]
